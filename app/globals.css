@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pretendard Font - You can use next/font/local for better performance
+   or link directly from a CDN/host yourself. */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+/* Custom classes for specific styles not easily expressible in Tailwind, or to override */
+.font-pretendard-semibold {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 600; /* Semibold */
+}
+
+.font-pretendard-bold {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 700; /* Bold */
+}
+
+.font-pretendard-medium {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 500; /* Medium */
+}
